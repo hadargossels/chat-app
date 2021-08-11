@@ -1,0 +1,30 @@
+.start-chat {
+  position: fixed;
+  right: 5vw;
+  bottom: 5vh;
+  height: 10vh;
+  width: 10vh;
+  font-size: 5vh;
+  border-radius: 50%;
+  background-color: rgb(3, 37, 3);
+  color: white;
+  border: none;
+}
+
+.dropdown {
+  position: fixed;
+  right: 5vw;
+  bottom: 5vh;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  right: 10vw;
+  bottom: 14vh;
+  background-color: #f9f9f9;
+  min-width: 50vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}

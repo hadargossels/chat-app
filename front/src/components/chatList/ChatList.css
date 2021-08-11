@@ -1,0 +1,28 @@
+.chat-list {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 250px;
+}
+
+.back-btn {
+    display: flex;
+    margin-right: 10vw;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.new-btn {
+    display: flex;
+    margin-left: 10vw;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.chatList {
+    border-bottom: 2px solid lightgrey;
+}
